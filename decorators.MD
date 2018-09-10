@@ -4,10 +4,10 @@
 Decorators provide a manner which can be used to define annotations and meta-programming syntax for class declarations and its members (parameter, accessor, method or property). Decorators are available as experimental feature of typescript and are a Stage 2 proposal for Javascript.
 
 There are mainly four types of decorators in angular 4 -
-1. Class Decorators - >@Component and >@NgModule
-2. Parameter Decorators - >@Inject
-3. Property Decorators - >@Input and >@Output
-4. Method Decorators - >@HostListener
+1. Class Decorators - @Component and @NgModule
+2. Parameter Decorators - @Inject
+3. Property Decorators - @Input and @Output
+4. Method Decorators - @HostListener
 
 ## @Component Decorator -
 A component is what defines an angular application. It is the basic building block of the application. When you define angular component, it provides some properties to specify the metadata required for the processing of component like - selector, templateUrl, styleUrls etc.
