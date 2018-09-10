@@ -4,10 +4,10 @@
 Decorators provide a manner which can be used to define annotations and meta-programming syntax for class declarations and its members (parameter, accessor, method or property). Decorators are available as experimental feature of typescript and are a Stage 2 proposal for Javascript.
 
 There are mainly four types of decorators in angular 4 -
-1. Class Decorators - @Component and @NgModule
-2. Parameter Decorators - @Inject
-3. Property Decorators - @Input and @Output
-4. Method Decorators - @HostListener
+1. Class Decorators - > @Component and > @NgModule
+2. Parameter Decorators - > @Inject
+3. Property Decorators - > @Input and > @Output
+4. Method Decorators - > @HostListener
 
 ## @Component Decorators -
 A component is what defines an angular application. It is the basic building block of the application. When you define angular component, it provides some properties to specify the metadata required for the processing of component like - selector, templateUrl, styleUrls etc.
@@ -118,15 +118,15 @@ NgModule is a way to organize the application dependencies. It allows us to grou
 export class AppModule { }
 ```
 
-** declarations ** - Declarations are private by default. These are the components, directives and pipes that are used by the module.
+**declarations** - Declarations are private by default. These are the components, directives and pipes that are used by the module.
 
-** imports ** - Imports are the modules on which this module depends on.
+**imports** - Imports are the modules on which this module depends on.
 
-** exports ** - Exports declared are publicly available.
+**exports** - Exports declared are publicly available.
 
-** providers ** - They are the injectables or services. Eg - Http Calls, Business Logic
+**providers** - They are the injectables or services. Eg - Http Calls, Business Logic
 
-bootstrap - The component defined within this will be bootstrapped when this module is bootstrapped. This component is usually the root component.
+**bootstrap** - The component defined within this will be bootstrapped when this module is bootstrapped. This component is usually the root component.
 
 ## @Injectable -
 When we use @Injectable with a class then it means that the class can be used with dependency injector. There is no need to use @Injectable if there is no dependency within service. But if there is any dependency within the Service then we need to add @Injectable.
