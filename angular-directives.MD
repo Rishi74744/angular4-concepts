@@ -61,7 +61,7 @@ export class TestComponent {
 }
 ```
 
-Creating Custom Directives in Angular 4 -
+## Creating Custom Directives in Angular 4 -
 To create a custom directive in angular, follow steps below -
 
 ```
