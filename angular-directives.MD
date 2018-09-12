@@ -102,7 +102,7 @@ export class AppComponent { }
 ```
 
 ElementRef provides us the DOM reference of the element to which the directive is attached to.  
-selector  - defines the name of directive that will be used when applying to the dom.
-host - defines methods to call on different events.
+**selector**  - defines the name of directive that will be used when applying to the dom.
+**host** - defines methods to call on different events.
 
 AppComponent class template shows how to use the custom directive. This is how we create custom directive in angular 4 and use it in our component.
